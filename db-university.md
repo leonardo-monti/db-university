@@ -43,3 +43,7 @@ SELECT COUNT(id)
 FROM university.departments
 
 8. Quanti sono gli insegnanti che non hanno un numero di telefono? (50)
+
+SELECT \*
+FROM university.teachers
+WHERE phone IS NULL
